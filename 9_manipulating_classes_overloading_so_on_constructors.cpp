@@ -13,7 +13,7 @@ public:
     cout<<"Your intialization has been mounted"<<endl;
     }
 
-    Distance(): feet(0), inches(0)
+    Distance(): feet(0), inches(0) // constructor
     {
       cout<<"mounted Default initalization"<<endl;
     }
