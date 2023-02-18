@@ -17,7 +17,7 @@ public:
     {/*nothing*/}
 
     void push(int var){
-        if(top>=xi10){
+        if(top>=MAX){
             cout<<"Full"<<endl;
         }
         else{
