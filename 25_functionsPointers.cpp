@@ -23,8 +23,9 @@ void Swap::swapper(int *a, int *b){
 void Swap::referenceSwap(int& a,  int& b){
 
     int i(0), arr[] = {a, b};
-    a = arr[i++];
     b = arr[i];
+    a = arr[i++];
+    
 }
 
 
