@@ -66,7 +66,7 @@ int main(){
         cout<<"val1: "<<arr[k]<<" |  "<<"address: "<<arr+ k <<endl;
         cout<<"val2: "<<arr[k++]<<" |  "<<"address: "<<arr+(++k)<<endl;
 
-        SW.swapper((arr+1), (arr +2));
+        SW.swapper((arr+k), (arr + (++k)));
         cout<<"After"<<endl<<endl;
         cout<<"val1: "<<arr[0]<<" |  "<<"address: "<<arr + 1<<endl;
         cout<<"val2: "<<arr[1]<<" |  "<<"address: "<<arr + 2<<endl;
