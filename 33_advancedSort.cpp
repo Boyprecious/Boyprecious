@@ -1,8 +1,7 @@
 /* sort elements */
 /* can also use the vector type for this with series of push and pop */
 
-//Author: "Tambu Precious"  i'm on linkdn and twitter.
-// free
+//Author: "Tambu Precious" 
 #include <iostream>
 
 using namespace std;
@@ -108,7 +107,7 @@ int main(){
     structLinks ls;
 
     cout<<"Enter values(e or E to stop)"<<endl<<endl;
-    char values;
+    char values;                                    // this means just 1 byte.  that is why you can sort only single numbers. {isalpha(), isdigit(), - good solve
     int equivalentInt;
 
     values = 'a';
