@@ -27,7 +27,7 @@ public:
         while(destroyer!=NULL){
             link* temporary = destroyer; 
             destroyer = destroyer->next; 
-            deestroy temporary;
+            delete temporary;
         }
     }
         
