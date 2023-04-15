@@ -22,6 +22,15 @@ public:
     structLinks(){  //Constructor: called on initials
         first = NULL;
     }
+    ~structLinks(){  //  this is a distructor and it is called when we exit the class 
+        link* destroyer = first; 
+        while(destroyer!=NULL){
+            link* temporary = destroyer; 
+            destroyer = destroyer->next; 
+            destroy temporary;
+        }
+    }
+        
         void additem(int);
         void verboseDisplay();
         void displayLists();
